@@ -40,8 +40,9 @@ sudo apt install python3-colcon-common-extensions
 ## 1. Clone the Repository
 ```
 cd ~
-git clone https://github.com/jikoaldreisy/ros-pubsub.git ros2_ws
-cd ros2_ws
+git clone https://github.com/jikoaldreisy/ros-pubsub.git
+cd ros-pubsub
+
 ```
 
 ## 2. Build the Workspace
@@ -52,13 +53,13 @@ colcon build --symlink-install
 ## 3. Source the Environment
 ```
 source /opt/ros/humble/setup.bash
-source ~/ros2_ws/install/setup.bash
+source ~/ros-pubsub/install/setup.bash
 ```
 
 ### (Optional: Add to your ~/.bashrc)
 ```
 echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
-echo "source ~/ros2_ws/install/setup.bash" >> ~/.bashrc
+echo "source ~/ros-pubsub/install/setup.bash" >> ~/.bashrc
 ```
 
 # 🧠 Run the Example
