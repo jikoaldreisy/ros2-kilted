@@ -1,6 +1,6 @@
-# ROS 2 C++ Publisher-Subscriber
+# ROS 2 Kilted
 
-A simple ROS 2 C++ project demonstrating **Publisher** and **Subscriber** nodes.  
+A containerized ROS 2 setup with a simple C++ project demonstrating **Publisher** and **Subscriber** nodes.  
 You can run this entirely in **WSL (Ubuntu)** — no hardware required.
 
 ---
@@ -11,8 +11,8 @@ You can run this entirely in **WSL (Ubuntu)** — no hardware required.
 ## 1. Clone the Repository
 ```
 cd ~
-git clone https://github.com/jikoaldreisy/ros-pubsub.git
-cd ros-pubsub
+git clone git@github.com:jikoaldreisy/ros2-kilted.git
+cd ros2-kilted
 ```
 
 
